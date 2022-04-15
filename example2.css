@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "BMHANNAAir";
+    font-style: normal;
+    font-weight: 400;
+    src: url('./배민한나에어/BMHANNAAir_ttf.ttf') format('truetype');
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 200px; height: 50px;
+    border: none;
+    background-color: white; 
+    color: black;
+    cursor: pointer;
+    font-family: 'BMHANNAAir', cursive;
+    transition: all 250ms ease;}
+
+button:hover {
+    font-size: 22px;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(130, 217, 255);
+}
